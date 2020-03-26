@@ -1,0 +1,285 @@
+/* Added HTML5 Reset Stylesheet in order to be cross-browser compatible*/
+
+/* Reset CSS */
+
+/* Positioning */
+    
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+} */
+
+/* Ending of Reset CSS and beggining of CSS assets stylesheet */
+
+body {
+    /* Visual */
+    background-color: #d9dcd6;
+}
+
+header {
+    /* Box-model */
+    padding: 20px;
+
+    /* Typography */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+
+    /* Visual */
+    background-color: #2a607c;
+}
+
+header h1 {
+    /* Positioning */
+    display: inline-block;
+
+    /* Typography */
+    font-size: 48px;
+}
+
+header h1 .seo {
+    /* Typography */
+    color: #d9dcd6;
+}
+
+header nav {
+    /* Positioning */
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+
+    /* Typography */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header nav ul {
+    /* Typography */
+    list-style-type: none;
+}
+
+header nav ul li {
+    /* Positioning */
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    /* Typography */
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    /* Typography */
+    font-size: 16px;
+}
+
+/* Background Image */
+.hero {
+    /* Box-model */
+    height: 800px;
+    width: 100%;
+
+    /* Positioning */
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+
+    /* Picture */
+    background-image: url("../images/digital-marketing-meeting.jpg");
+}
+
+.float-left {
+    /* Positioning */
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    /* Positioning */
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    /* Box-model */
+    width: 75%;
+
+    /* Positioning */
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.benefits {
+    /* Positioning */
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+
+    /* Box-model */
+    width: 20%;
+    height: 100%;
+
+    /* Typography */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    /* Visual */
+    background-color: #2589bd;
+}
+
+/* Clear the code by grupping tags with same declaration */
+
+.benefit-lead, .benefit-brand, .benefit-cost {
+    /* Positioning */
+    margin-bottom: 32px;
+
+    /* Typography */
+    color: #ffffff;
+}
+
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
+    /* Positioning */
+    margin-bottom: 10px;
+
+    /* Typography */
+    text-align: center;
+}
+
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
+    /* Positioning */
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    /* Positioning */
+    margin-bottom: 20px;
+
+    /* Box-model */
+    padding: 50px;
+    height: 300px;
+
+    /* Typography */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+    /* Box-model */
+    max-height: 200px;
+}
+
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+    /* Box-model */
+    margin-bottom: 20px;
+
+    /* Typography */
+    font-size: 36px;
+}
+
+footer {
+    /* Box-model */
+    padding: 30px;
+
+    /* Positioning */
+    clear: both;
+
+    /* Typography */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h4 {
+    /* Typography */
+    font-size: 20px;
+}
